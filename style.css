@@ -9,16 +9,20 @@
   --dark-slate: #1f314f;
   --bold-font: 700;
   --normal-font: 400;
-  font-size: 10px;
 }
 
 /* Main Styling */
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -38,36 +42,36 @@ img {
 
 .card {
   background-color: var(--white);
-  max-width: 32rem;
-  padding: 1.6rem;
-  padding-bottom: 4rem;
+  width: 20rem;
+  padding: 1rem;
+  padding-block-end: 2.5rem;
   text-align: center;
-  border-radius: 2rem;
+  border-radius: 1.25rem;
 }
 
 .card__picture {
-  border-radius: 1rem;
-  margin-bottom: 2.4rem;
+  border-radius: 0.625rem;
+  margin-block-end: 1.5rem;
 }
 
 .card__content {
-  padding-inline: 1.6rem;
+  padding-inline: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1rem;
 }
 
 .card__heading {
   color: var(--dark-slate);
   font-weight: var(--bold-font);
-  font-size: 2.2rem;
+  font-size: 1.375rem;
   line-height: 1.2;
 }
 
 .card__text {
   color: var(--medium-slate);
   font-weight: var(--normal-font);
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   line-height: 1.4;
   letter-spacing: 0.2px;
 }
