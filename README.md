@@ -11,6 +11,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -33,6 +34,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+
+### Useful resources
+
+- [https://css-tricks.com/almanac/rules/s/supports/](https://css-tricks.com/almanac/rules/s/supports/)
 
 ## Author
 

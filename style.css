@@ -32,7 +32,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  height: 100svh;
+}
+
+@supports (height: 100svh) {
+  body {
+    height: 100svh;
+  }
 }
 
 img {
@@ -42,7 +47,8 @@ img {
 
 .card {
   background-color: var(--white);
-  width: 20rem;
+  width: 100%;
+  max-width: 20rem;
   padding: 1rem;
   padding-block-end: 2.5rem;
   text-align: center;
