@@ -73,5 +73,5 @@ img {
   font-weight: var(--normal-font);
   font-size: 0.9375rem;
   line-height: 1.4;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.0125em;
 }
