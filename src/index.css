@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-outfit: 'Outfit', sans-serif;
+  --color-slate-dark: hsl(218, 44%, 22%);
+  --color-slate-medium: hsl(216, 15%, 48%);
+  --color-slate-light: hsl(212, 45%, 89%);
+  --shadow-card: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+}
+
+body {
+  background-color: var(--color-slate-light);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
