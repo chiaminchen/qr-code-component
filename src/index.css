@@ -7,12 +7,21 @@
   --color-slate-medium: hsl(216, 15%, 48%);
   --color-slate-light: hsl(212, 45%, 89%);
   --shadow-card: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+  --radius-card: 1.25rem;
+  --radius-image: 0.625rem;
+  --text-title: 1.375rem;
+  --text-body: 0.9375rem;
+  --leading-tight: 1.2;
+  --leading-relaxed: 1.4;
+  --tracking-wider: 0.2px;
 }
 
-body {
-  background-color: var(--color-slate-light);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@layer base {
+  body {
+    background-color: var(--color-slate-light);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
