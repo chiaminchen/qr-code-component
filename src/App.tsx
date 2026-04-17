@@ -3,7 +3,7 @@ import qrCodeImage from './assets/image-qr-code.png';
 function App() {
   return (
     <main>
-      <article className="bg-white font-outfit w-full max-w-xs p-4 rounded-card shadow-card">
+      <article className="font-outfit rounded-card shadow-card w-full max-w-xs bg-white p-4">
         <img
           className="rounded-image w-full"
           src={qrCodeImage}
@@ -11,12 +11,13 @@ function App() {
           width="288"
           height="288"
         />
-        <div className="text-center px-4 py-6 flex flex-col gap-4">
-          <h1 className="text-title leading-tight font-bold text-slate-dark">
+        <div className="flex flex-col gap-4 px-4 py-6 text-center">
+          <h1 className="text-title text-slate-dark leading-tight font-bold">
             Improve your front-end skills by building projects
           </h1>
-          <p className="text-body leading-relaxed tracking-wider text-slate-medium">
-            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          <p className="text-body text-slate-medium leading-relaxed tracking-wider">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
           </p>
         </div>
       </article>
